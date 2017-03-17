@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+ 
+function findLongestWord(str) {
+  var splitArr = str.split(" "); 
+    splitArr.sort(function(a, b){
+  // ASC  -> a.length - b.length
+  // DESC -> b.length - a.length
+  return b.length - a.length;
+});                
+  var answer = splitArr[0];
+  
+  document.write(answer.length);
+ return answer.length;
+}
+
+findLongestWord("The quick brown fox jumped over the lazy dog");
+
+  
+</script>
+</body>
+</html>
+
+

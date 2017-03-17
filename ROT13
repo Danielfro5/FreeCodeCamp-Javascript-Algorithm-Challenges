@@ -1,0 +1,36 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+
+
+
+
+
+function rot13(str) {
+  var a = [];
+  for(var i=0;i<str.length;i++){
+    var result = str.charCodeAt(i);
+    if (result < 64){result = result;}
+    else{result = result + 13;}
+    if (result > 90){result = result % 90 + 64;} 
+    a.push(result);  
+  }
+  
+  a = String.fromCharCode.apply(0, a);	
+  return a;
+  
+}
+
+
+rot13("GUR DHVPX OEBJA QBT WHZCRQ BIRE GUR YNML SBK.");
+</script>
+</body>
+</html>
+

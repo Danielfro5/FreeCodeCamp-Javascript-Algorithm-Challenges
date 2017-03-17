@@ -1,0 +1,28 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+	
+function mutation(arr) {
+    arr = arr.toString();
+    arr = arr.toLowerCase();
+    arr = arr.split(",");
+ 
+	for(var i=0;i<arr[1].length;i++){
+	var result = arr[0].indexOf(arr[1][i]);
+	if (result == -1){return false;}				
+	}							  
+    return true;
+}
+
+mutation(["hey", "hey"]);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+function lowToHigh(a, b){
+  return a - b;
+}
+
+function getIndexToIns(arr, num) {
+  arr.push(num);
+  arr = arr.sort(lowToHigh);
+  var result = arr.indexOf(num);
+  return result;
+}
+
+getIndexToIns([2, 5, 10], 15);
+
+</script>
+</body>
+</html>
+

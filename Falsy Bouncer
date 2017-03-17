@@ -1,0 +1,30 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+
+
+function bouncer(arr) {
+  arr = arr.filter(Boolean);
+  return arr;
+}
+
+bouncer([7, "ate", "", false, 9]);
+
+
+</script>
+</body>
+</html>
+
+
+if indexOf returns -1 then return false
+
+function isBigEnough(value) {
+  return value >= 10;
+}

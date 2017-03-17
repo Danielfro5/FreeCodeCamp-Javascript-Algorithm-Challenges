@@ -1,0 +1,31 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+
+var result = "";
+function repeatStringNumTimes(str, num) {
+  
+	if (num < 0) {return "";} else
+{
+  str = str.repeat(num);
+  return str;
+}
+  
+}
+
+repeatStringNumTimes("*4", 3);
+						
+						  
+
+</script>
+</body>
+</html>
+
+

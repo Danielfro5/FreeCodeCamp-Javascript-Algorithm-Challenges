@@ -1,0 +1,37 @@
+<html>
+<head>
+<script type="text/javascript">
+
+	
+</script>
+</head>
+<body>
+<script type="text/javascript">
+
+function confirmEnding(str, target) {
+
+	var x = str.length - target.length;
+  var y = target.length;
+  //document.write(str.substr(x, y) );
+  var result = str.substr(x, y);
+  if(result == target){
+   return true;
+  } else return false;
+  
+  
+  
+  
+	
+	
+}
+
+confirmEnding("Bastianong", "nong");
+
+  
+
+  
+</script>
+</body>
+</html>
+
+
